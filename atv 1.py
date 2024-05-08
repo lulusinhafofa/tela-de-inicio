@@ -15,7 +15,7 @@ class LoginScreen(BoxLayout):
         self.padding = [50, 20]
 
        
-        self.logo = Image(source='C:\Users\aluno.sesipaulista\Downloads\tabaio.png')
+        self.logo = Image(source='C:\\Users\\aluno.sesipaulista\\Downloads\\tabaio.png')
         self.add_widget(self.logo)
 
         self.username_input = TextInput(hint_text="Username", multiline=False)
